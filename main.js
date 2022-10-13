@@ -2,7 +2,7 @@ var gameData = {
     plasma: 0,
     plasPerClick: 1,
     plasPerClickCost: 10,
-    update: "0.0.1"
+    update: "0.0.2"
 }
 
 function plasmine() {
@@ -21,7 +21,7 @@ function buyPlasPerClick() {
 }
 
 var mainGameLoop = window.setInterval(function() {
-    mineGold()
+    plasmine()
 }, 1000)
 
 var saveGameLoop = window.setInterval(function() {
